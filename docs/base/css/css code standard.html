@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CSS代码规范 | GIT FE</title>
+    <meta name="description" content="汇聚前端技术、规范、效率、架构">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.2e019a3f.css" as="style"><link rel="preload" href="/assets/js/app.dfd6ab4d.js" as="script"><link rel="preload" href="/assets/js/2.b939cb28.js" as="script"><link rel="preload" href="/assets/js/10.492be5c9.js" as="script"><link rel="prefetch" href="/assets/js/11.60d9eba7.js"><link rel="prefetch" href="/assets/js/12.cdc3be61.js"><link rel="prefetch" href="/assets/js/13.e0d3b240.js"><link rel="prefetch" href="/assets/js/14.3518fa29.js"><link rel="prefetch" href="/assets/js/15.9490f2b5.js"><link rel="prefetch" href="/assets/js/16.4ce6a116.js"><link rel="prefetch" href="/assets/js/17.81912099.js"><link rel="prefetch" href="/assets/js/18.8c85fbf5.js"><link rel="prefetch" href="/assets/js/19.79a1d5f1.js"><link rel="prefetch" href="/assets/js/20.c1564fa1.js"><link rel="prefetch" href="/assets/js/21.6bc962ae.js"><link rel="prefetch" href="/assets/js/22.c527b66e.js"><link rel="prefetch" href="/assets/js/23.f2b309eb.js"><link rel="prefetch" href="/assets/js/24.36aacb2c.js"><link rel="prefetch" href="/assets/js/25.99fcce54.js"><link rel="prefetch" href="/assets/js/26.e8b1a6fb.js"><link rel="prefetch" href="/assets/js/27.29d7c124.js"><link rel="prefetch" href="/assets/js/28.69c63436.js"><link rel="prefetch" href="/assets/js/29.7b803663.js"><link rel="prefetch" href="/assets/js/3.1d40a78a.js"><link rel="prefetch" href="/assets/js/30.2933d527.js"><link rel="prefetch" href="/assets/js/31.7103dd16.js"><link rel="prefetch" href="/assets/js/32.f8a786ae.js"><link rel="prefetch" href="/assets/js/33.79460ee0.js"><link rel="prefetch" href="/assets/js/34.05f48b02.js"><link rel="prefetch" href="/assets/js/35.30a016be.js"><link rel="prefetch" href="/assets/js/36.ec564709.js"><link rel="prefetch" href="/assets/js/37.83bb026f.js"><link rel="prefetch" href="/assets/js/38.35a14b28.js"><link rel="prefetch" href="/assets/js/39.cc1b56ae.js"><link rel="prefetch" href="/assets/js/4.27b46c77.js"><link rel="prefetch" href="/assets/js/40.2d5edf0a.js"><link rel="prefetch" href="/assets/js/41.e490ce8a.js"><link rel="prefetch" href="/assets/js/42.a2df631b.js"><link rel="prefetch" href="/assets/js/43.99efa01e.js"><link rel="prefetch" href="/assets/js/44.5eba4bec.js"><link rel="prefetch" href="/assets/js/45.1a68500c.js"><link rel="prefetch" href="/assets/js/46.fcfd1db4.js"><link rel="prefetch" href="/assets/js/47.e6b44823.js"><link rel="prefetch" href="/assets/js/48.b2cdbd99.js"><link rel="prefetch" href="/assets/js/49.a4064652.js"><link rel="prefetch" href="/assets/js/5.63bc2c45.js"><link rel="prefetch" href="/assets/js/50.ea1e9472.js"><link rel="prefetch" href="/assets/js/51.430a2595.js"><link rel="prefetch" href="/assets/js/52.95f7ff8f.js"><link rel="prefetch" href="/assets/js/53.a1fc1a14.js"><link rel="prefetch" href="/assets/js/54.476f11fa.js"><link rel="prefetch" href="/assets/js/55.eaaf3730.js"><link rel="prefetch" href="/assets/js/56.36042f5d.js"><link rel="prefetch" href="/assets/js/57.af111e76.js"><link rel="prefetch" href="/assets/js/58.be9cedcc.js"><link rel="prefetch" href="/assets/js/59.1121e9c2.js"><link rel="prefetch" href="/assets/js/6.bd4f59be.js"><link rel="prefetch" href="/assets/js/60.6ddea625.js"><link rel="prefetch" href="/assets/js/61.e376a266.js"><link rel="prefetch" href="/assets/js/62.6373cc72.js"><link rel="prefetch" href="/assets/js/63.6469771b.js"><link rel="prefetch" href="/assets/js/64.72b35595.js"><link rel="prefetch" href="/assets/js/65.79be7c6e.js"><link rel="prefetch" href="/assets/js/66.761b264c.js"><link rel="prefetch" href="/assets/js/67.1c8ecadf.js"><link rel="prefetch" href="/assets/js/68.9e456f17.js"><link rel="prefetch" href="/assets/js/69.44f4bbac.js"><link rel="prefetch" href="/assets/js/7.394eab5f.js"><link rel="prefetch" href="/assets/js/70.8ab7d3fe.js"><link rel="prefetch" href="/assets/js/71.aba1a4a7.js"><link rel="prefetch" href="/assets/js/72.9e4a77d2.js"><link rel="prefetch" href="/assets/js/73.abc32009.js"><link rel="prefetch" href="/assets/js/74.bbe6356e.js"><link rel="prefetch" href="/assets/js/75.5ee78539.js"><link rel="prefetch" href="/assets/js/76.bb4790fc.js"><link rel="prefetch" href="/assets/js/77.1cbd7904.js"><link rel="prefetch" href="/assets/js/78.b27973fe.js"><link rel="prefetch" href="/assets/js/79.f8681aa7.js"><link rel="prefetch" href="/assets/js/8.25be4186.js"><link rel="prefetch" href="/assets/js/80.7533632d.js"><link rel="prefetch" href="/assets/js/81.26309039.js"><link rel="prefetch" href="/assets/js/82.0d3b35ae.js"><link rel="prefetch" href="/assets/js/83.f386dc7d.js"><link rel="prefetch" href="/assets/js/84.e2e4b65f.js"><link rel="prefetch" href="/assets/js/85.44c952db.js"><link rel="prefetch" href="/assets/js/86.f0af364c.js"><link rel="prefetch" href="/assets/js/87.22f0cde1.js"><link rel="prefetch" href="/assets/js/88.1d0393de.js"><link rel="prefetch" href="/assets/js/89.44ad8098.js"><link rel="prefetch" href="/assets/js/9.0276061a.js"><link rel="prefetch" href="/assets/js/90.489aa565.js"><link rel="prefetch" href="/assets/js/91.3b8439e1.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2e019a3f.css">
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?8c5a01a7690cba576b8dcd4d106c0169";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">GIT FE</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/devenv/base/" class="nav-link">开发环境</a></div><div class="nav-item"><a href="/docs/nextjs/" class="nav-link">nextjs</a></div><div class="nav-item"><a href="/docs/docker/" class="nav-link">docker</a></div><div class="nav-item"><a href="/docs/linux/" class="nav-link">linux</a></div><div class="nav-item"><a href="/docs/shortcuts/" class="nav-link">快捷键</a></div><div class="nav-item"><a href="/docs/git/" class="nav-link">git</a></div><div class="nav-item"><a href="/docs/utils/" class="nav-link">utils</a></div><div class="nav-item"><a href="/docs/eslint/" class="nav-link">编码规范</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">react</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/react/base/" class="nav-link">react基础</a></li><li class="dropdown-item"><!----> <a href="/docs/react/advance/" class="nav-link">react进阶</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">微信生态开发</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/wechat/mini-program/" class="nav-link">小程序</a></li><li class="dropdown-item"><!----> <a href="/docs/wechat/service-account/" class="nav-link">服务号</a></li></ul></div></div><div class="nav-item"><a href="https://shudong.wang/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/wsdo" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/wsdo/gitfe" target="_blank" rel="noopener noreferrer" class="repo-link">
+    查看源码
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/devenv/base/" class="nav-link">开发环境</a></div><div class="nav-item"><a href="/docs/nextjs/" class="nav-link">nextjs</a></div><div class="nav-item"><a href="/docs/docker/" class="nav-link">docker</a></div><div class="nav-item"><a href="/docs/linux/" class="nav-link">linux</a></div><div class="nav-item"><a href="/docs/shortcuts/" class="nav-link">快捷键</a></div><div class="nav-item"><a href="/docs/git/" class="nav-link">git</a></div><div class="nav-item"><a href="/docs/utils/" class="nav-link">utils</a></div><div class="nav-item"><a href="/docs/eslint/" class="nav-link">编码规范</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">react</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/react/base/" class="nav-link">react基础</a></li><li class="dropdown-item"><!----> <a href="/docs/react/advance/" class="nav-link">react进阶</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">微信生态开发</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/wechat/mini-program/" class="nav-link">小程序</a></li><li class="dropdown-item"><!----> <a href="/docs/wechat/service-account/" class="nav-link">服务号</a></li></ul></div></div><div class="nav-item"><a href="https://shudong.wang/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/wsdo" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/wsdo/gitfe" target="_blank" rel="noopener noreferrer" class="repo-link">
+    查看源码
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <!----> </aside> <main class="page"> <div class="row theme-gitfe-page"><div class="col-md-10"><div class="theme-gitfe-content content__default"><p>目标：不管有多少参与者，代码都应该像同一个人所写
+声明：本规范中的一些规定无对错之分，只是为了统一风格和增加可读性</p> <h2 id="_1-文件格式"><a href="#_1-文件格式" aria-hidden="true" class="header-anchor">#</a> 1 文件格式</h2> <ul><li>文件名：全部为小写字母，后缀为<code>.css</code>, <code>.scss</code>, <code>.less</code></li> <li>文件编码：<code>UTF-8</code></li> <li>换行符：<code>LF</code></li> <li>缩进：<code>Tab</code></li> <li>行末不能包含空格</li> <li>文件以空白行结束</li> <li>每行最大长度：<code>120</code></li> <li>单文件最大行数不要超过<code>2000</code></li></ul> <h2 id="_2-命名"><a href="#_2-命名" aria-hidden="true" class="header-anchor">#</a> 2 命名</h2> <ul><li>所有命名均使用英文，除非对应的英文无法准确表述，否则禁止使用汉语拼音，尤其禁止使用汉语拼音的字母缩写</li> <li>尽可能使命名简短，但是不要使用意义不清晰的缩写，如果有必要可以让名称长一些</li> <li>命名使用小写字母单词和连接符<code>-</code>，不使用下划线<code>_</code>或驼峰命名</li></ul> <h2 id="_3-注释"><a href="#_3-注释" aria-hidden="true" class="header-anchor">#</a> 3 注释</h2> <ul><li><p>注释内容前面增加一个空格</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	// comment
+	/* comment */
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	//comment
+	/*comment*/
+</code></pre></div><ul><li><p>尽量避免行末注释</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	div {
+		// comment
+		margin: 0; 
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	div {
+		margin: 0; // comment
+	}
+</code></pre></div><h2 id="_4-代码格式"><a href="#_4-代码格式" aria-hidden="true" class="header-anchor">#</a> 4 代码格式</h2> <h3 id="_4-1-选择器"><a href="#_4-1-选择器" aria-hidden="true" class="header-anchor">#</a> 4.1 选择器</h3> <ul><li><p>不要绑定元素类型和class</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	.error {
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	div.error {
+	}
+</code></pre></div><ul><li><p>使用双引号<code>&quot;&quot;</code>来括住选择器中的属性值</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	input[type=&quot;checkbox&quot;] {
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	input[type=checkbox] {
+	}
+</code></pre></div><h3 id="_4-2-属性值"><a href="#_4-2-属性值" aria-hidden="true" class="header-anchor">#</a> 4.2 属性值</h3> <ul><li><p>使用双引号<code>&quot;&quot;</code>而不是单引号<code>''</code>，尤其不要混合使用</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	html {
+		font-family: &quot;open sans&quot;, &quot;Segoe UI&quot;, sans-serif;
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	html {
+		font-family: &quot;open sans&quot;, 'Segoe UI', sans-serif;
+	}
+</code></pre></div><ul><li><p>Hex值使用小写字母</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	color: #fafafa;
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	color: #FAFAFA;
+</code></pre></div><ul><li><p>Hex值如果能简写则简写</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	color: #ccc;
+	color: #ebc;
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	color: #cccccc;
+	color: #eebbcc;
+</code></pre></div><ul><li><p>数值为0避免使用单位</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	margin: 0;
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	margin: 0px;
+</code></pre></div><h3 id="_4-3-换行"><a href="#_4-3-换行" aria-hidden="true" class="header-anchor">#</a> 4.3 换行</h3> <ul><li><p>规则声明后面大括号<code>}</code>独占一行</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	div {
+		margin: 0;
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	div {
+		margin: 0;}
+</code></pre></div><ul><li><p>在一个规则声明中使用了多个选择器时，每个选择器独占一行</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	h1,
+	h2,
+	h3 {
+		margin: 0;
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	h1, h2, h3 {
+		margin: 0;
+	}
+</code></pre></div><ul><li><p>对于以逗号分隔并且非常长的属性值, 可以放在多行中</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	.selector {
+    	box-shadow:
+        	1px 1px 1px #000,
+        	2px 2px 1px 1px #ccc inset;
+    	background-image:
+        	linear-gradient(#fff, #ccc),
+        	linear-gradient(#f3c, #4ec);
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	.selector {
+    	box-shadow:
+        	1px 1px 1px #000, 2px 2px 1px 1px #ccc inset;
+    	background-image:
+        	linear-gradient(#fff, #ccc), linear-gradient(#f3c, #4ec);
+	}
+</code></pre></div><ul><li><p>每个属性声明放在单独的行中，即使只有一个属性</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	.selector {
+		width: 10%;
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	.selector { width: 10%; }
+</code></pre></div><h3 id="_4-4-空行"><a href="#_4-4-空行" aria-hidden="true" class="header-anchor">#</a> 4.4 空行</h3> <ul><li><p>两个规则之间使用一个空行</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	.s1 {
+	  margin: 0;
+	}
+
+	.s2 {
+	  margin: 0;
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	.s1 {
+	  margin: 0;
+	}
+	.s2 {
+	  margin: 0;
+	}
+</code></pre></div><h3 id="_4-5-空格"><a href="#_4-5-空格" aria-hidden="true" class="header-anchor">#</a> 4.5 空格</h3> <ul><li><p>在规则声明的左大括号<code>{</code>前加一个空格</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	h3 {
+	  font-weight: bold;
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	h3{
+	  font-weight: bold;
+	}
+</code></pre></div><ul><li><p>属性名的冒号后面加一个空格，前面不加空格</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	h3 {
+	  font-weight: bold;
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	h3 {
+	  font-weight:bold;
+	}
+</code></pre></div><ul><li><p>逗号分隔的值，在逗号后加一个空格</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	div {
+	  color:rgba(0, 0, 0, .5);
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	div {
+	  color:rgba(0,0,0,.5);
+	}
+</code></pre></div><ul><li><p>连接符前后各加一个空格</p> <p>正确示例：</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>	li &gt; p {
+		margin-top: 0;
+	}
+
+	li + li {
+		margin-top: 0;
+	}
+</code></pre></div><pre><code>错误示例：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>	li&gt;p {
+		margin-top: 0;
+	}
+
+	li+li {
+		margin-top: 0;
+	}
+</code></pre></div><h2 id="_5-编程惯例"><a href="#_5-编程惯例" aria-hidden="true" class="header-anchor">#</a> 5 编程惯例</h2> <ul><li>不要使用ID选择器</li> <li>避免在CSS和JavaScript中绑定相同的class。用于特定JavaScript的类名时，添加<code>.js-</code>前缀</li> <li>LESS/SCSS中不要让嵌套选择器的深度超过3层</li> <li>LESS/SCSS中把一些公共的样式代码抽象成变量，例如：颜色</li> <li>把相关的属性放一起，比如把position相关的属性放一起</li> <li>按位置，盒模型，文字, 外观，其他，来组织属性声明顺序</li> <li>尽量将媒体查询的位置靠近它们相关的规则。不要将它们放到一个独立的样式文件中，或者放在文档的最底部</li> <li>按不同的组件(component)来拆分不同的样式文件，而不是按页面来拆分</li></ul></div> <!----></div> <div class="col-md-2"><div class="gitfe-page-toc"><ul class="sidebar-links theme-gitfe-page-sider sidebar-sub-header"><li><a href="/docs/base/css/css%20code%20standard.html#1 文件格式">1 文件格式</a></li><li><a href="/docs/base/css/css%20code%20standard.html#2 命名">2 命名</a></li><li><a href="/docs/base/css/css%20code%20standard.html#3 注释">3 注释</a></li><li><a href="/docs/base/css/css%20code%20standard.html#4 代码格式">4 代码格式</a></li><li><a href="/docs/base/css/css%20code%20standard.html#4.1 选择器">4.1 选择器</a></li><li><a href="/docs/base/css/css%20code%20standard.html#4.2 属性值">4.2 属性值</a></li><li><a href="/docs/base/css/css%20code%20standard.html#4.3 换行">4.3 换行</a></li><li><a href="/docs/base/css/css%20code%20standard.html#4.4 空行">4.4 空行</a></li><li><a href="/docs/base/css/css%20code%20standard.html#4.5 空格">4.5 空格</a></li><li><a href="/docs/base/css/css%20code%20standard.html#5 编程惯例">5 编程惯例</a></li></ul></div></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com//wsdo/gitfe/edit/master/docs/base/css/css code standard.md" target="_blank" rel="noopener noreferrer">帮助我们改善此页面！</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">3 months ago</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.dfd6ab4d.js" defer></script><script src="/assets/js/2.b939cb28.js" defer></script><script src="/assets/js/10.492be5c9.js" defer></script>
+  </body>
+</html>
